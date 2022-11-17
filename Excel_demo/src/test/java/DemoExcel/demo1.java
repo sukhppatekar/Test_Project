@@ -50,7 +50,7 @@ public class demo1
      @BeforeClass
      public void maximize()
      {
-    	 System.out.println("Maximize browser : Before class");
+    	 System.out.println("    Maximize browser : Before class");
     	 driver.manage().window().maximize();
      }
      @BeforeMethod
